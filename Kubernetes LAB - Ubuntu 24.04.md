@@ -424,6 +424,8 @@ Aplicar as configurações:
   kubectl apply -f metallb-config.yaml
 ```
 
+[Caso precise alterar o range de IPs do MetalLB](Kubernetes%20LAB%20-%20MetalLB.md)
+
 ## <font color=blue> Explicação da Ordem </font>
 
 1. **Calico primeiro** (ou outro CNI)
