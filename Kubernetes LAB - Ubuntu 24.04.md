@@ -1,6 +1,6 @@
 ## Pré-requisitos:
 
-- Hyper-v (neste caso específico, vSphere ([[ESXi]] com [[vCenter]])) com pelo menos, 32GB de RAM, prefencialmente 128GB de RAM
+- Hyper-v (neste caso específico, vSphere (ESXi com vCenter)) com pelo menos, 32GB de RAM, prefencialmente 128GB de RAM
 - Ubuntu 24.04 Server ISO
 - Acesso à internet
 - Paciência, perseverança e vontade de aprender
@@ -182,7 +182,7 @@ sudo apt-mark hold kubeadm kubectl kubelet
 ---
 ### Instalação do Helm
 
-[[Kubernetes LAB - Helm]]
+[Helm](Kubernetes%20LAB%20-%20Helm.md)
 #### Passo 1: Instalar o Helm CLI
 
 O Helm consiste em duas partes: o **CLI** (client) e o **Tiller** (servidor, nas versões antigas). A partir do Helm 3, o Tiller foi removido, e o Helm funciona apenas com o CLI, o que simplifica a instalação.
@@ -268,7 +268,7 @@ A nomenclatura e endereçamento IP abaixo foram utilizados:
 
 #### Opção 1 - Configurar reserva de IP no DHCP
 
-Acessar o roteador ([[FritzBox]]) / servidor de DHCP e criar reservas para cada host através do MAC address.
+Acessar o roteador / servidor de DHCP e criar reservas para cada host através do MAC address.
 
 #### Opção 2 - Configurar IP estático
 
