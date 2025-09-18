@@ -1,6 +1,6 @@
 ## Pré-requisitos:
 
-- Hyper-v (neste caso específico, vSphere ([[ESXi]] com [[vCenter]])) com pelo menos, 32GB de RAM, prefencialmente 128GB de RAM
+- Hyper-v (neste caso específico, vSphere (ESXi com vCenter) com pelo menos, 32GB de RAM, prefencialmente 128GB de RAM
 - Ubuntu 24.04 Server ISO
 - Acesso à internet
 - Paciência, perseverança e vontade de aprender
