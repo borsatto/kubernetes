@@ -196,7 +196,7 @@ O Helm usa repositórios para buscar charts. O repositório padrão é o **Bitna
    stable  https://charts.helm.sh/stable
    ```
 
-[[Kubernetes LAB - Principais repos de Helm]]
+[Principais repos de Helm](Kubernetes%20LAB%20-%20Principais%20repos%20de%20Helm.md)
 
 ---
 
