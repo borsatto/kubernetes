@@ -1,4 +1,3 @@
-[[Kubernetes LAB - Ubuntu 24.04]]
 ### Tarefa 1: Escalar o Deployment e Entender o Balanceamento de Carga
 
 **Objetivo:** Escalar o Deployment `nginx-lb` para 4 réplicas e observar como o Kubernetes gerencia o balanceamento de carga entre os pods.
@@ -53,7 +52,7 @@
    kubectl create configmap nginx-index --from-file=index.html
    ```
 
-[[Kubernetes LAB - Como adicionar linhas no ConfigMap]]
+[Adicionando linhas no Configmap](Kubernetes%20LAB%20-%20Como%20adicionar%20linhas%20no%20ConfigMap.md)
 
 2. **Atualizar o Deployment:**
    Edite o Deployment `nginx-lb` para montar o ConfigMap como um volume:
@@ -110,7 +109,8 @@
    ab -n 100000 -c 100 http://192.168.178.80/
    ```
    Observe como o HPA ajusta o número de réplicas com base no uso da CPU.
-[[Kubernetes LAB - Teste de carga em servidor Web]]
+   
+[Teste de carga em servidor Web](Kubernetes%20LAB%20-%20Teste%20de%20carga%20em%20servidor%20Web.md)
 
 **Explicação:**
 - **HPA:** O Horizontal Pod Autoscaler ajusta automaticamente o número de réplicas de um Deployment com base na utilização de recursos, como CPU ou memória. Isso ajuda a garantir que o aplicativo tenha recursos suficientes para lidar com a carga, sem sobrecarregar os nós.
