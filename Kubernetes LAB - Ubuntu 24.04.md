@@ -529,6 +529,9 @@ Se tudo estiver certo, você verá a página padrão do **NGINX**!
 
 ## Fontes: 
 https://youtu.be/vX2n05t0AQg
+
 [Ubuntu | Docker Docs](https://docs.docker.com/engine/install/ubuntu/)
+
 [How to Disable IPv6 on Ubuntu Linux](https://itsfoss.com/disable-ipv6-ubuntu-linux/)
+
 [server - How to put a IP static in Ubuntu 24.04 - Ask Ubuntu](https://askubuntu.com/questions/1532356/how-to-put-a-ip-static-in-ubuntu-24-04)
