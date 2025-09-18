@@ -1,6 +1,6 @@
-Claro! Vou mostrar exatamente onde você deve adicionar as linhas para montar o ConfigMap como um volume no seu Deployment `nginx-lb`.
+Como adicionar as linhas para montar o ConfigMap como um volume no Deployment `nginx-lb`.
 
-Aqui está o trecho do seu Deployment onde você precisa fazer as alterações:
+Trecho onde será necessário fazer as alterações:
 
 ```yaml
 spec:
